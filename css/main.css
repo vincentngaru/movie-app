@@ -116,7 +116,7 @@ html {
 }
 
 /* responsive grid */
-@media (max-width: 640px) {
+@media (max-width: 622px) {
   .container {
     padding: 0;
     grid-gap: 0px;
@@ -141,6 +141,7 @@ html {
     "m m"
     "n n";
   }
+  .movie_page{display: block;}
 }
 /* individual movie page */
 .movie_page{
@@ -149,8 +150,7 @@ html {
   padding-right: 14em;
   display: grid;
   grid-template-columns: 3fr 6fr;
-
-grid-gap: 50px;
+  grid-gap: 50px;
 background-color:rgb(255, 255, 255);
 background-size: 400px;
 /* grid-template-areas:
