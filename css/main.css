@@ -133,12 +133,6 @@ background: rgba(255 0 255 0.4)
   }
   /* pick of day push image above text */
 
-  .pick_of_the_day {
-    padding: 0;
-    grid-template-areas:
-      "a a a"
-      "b b b";
-  }
   .header_section {
     grid-template-areas:
     "m m"
