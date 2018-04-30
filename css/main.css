@@ -258,3 +258,9 @@ iframe{width: 100%}
   background-color: rgba(255, 0, 0, 0.5);
   padding:7em;
 } */
+/* seat selection */
+.seat{background-color: gray;  }
+.sitting{display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-gap:20px;
+}

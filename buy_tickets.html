@@ -18,129 +18,131 @@
 
     <div class="site_box">
       <div class="header_section">
-      <div class="logo">
-      <a href="../index.html"> <p class="white b f5  ttu tracked pl3 green">movieTicko</p></a>
-      </div>
+        <div class="logo">
+          <a href="../index.html">
+            <p class="white b f5  ttu tracked pl3 green">movieTicko</p>
+          </a>
+        </div>
         <div class="search_bar">
-   <header class "header">
-          <input type="text" placeholder="search..." class="top_search">
-        </header>
+          <header class "header">
+            <input type="text" placeholder="search..." class="top_search">
+          </header>
+        </div>
       </div>
-      </div>
-    <div class="main_box">
-      <div class="checkout_panel">
+      <div class="main_box">
+        <div class="checkout_panel">
 
-        <h1> Check out</h1>
-        <p>Please choose the ticket type and quantity to proceed</p>
-        <h3>How Many Tickets</h3> Adult
-        <div class="item13">
-          <select>
+          <h1> Check out</h1>
+          <p>Please choose the ticket type and quantity to proceed</p>
+          <h3>How Many Tickets</h3> Adult
+          <div class="item13">
+            <select>
       <option>1</option>
       <option>2</option>
       <option>3</option>
     </select> x 18.90=0.00
-        </div>
+          </div>
 
-        <p>Senior</p>
-        <div class="item14">
-          <select>
+          <p>Senior</p>
+          <div class="item14">
+            <select>
         <option>1</option>
         <option>2</option>
         <option>3</option>
       </select> x 16.10=0.00
 
-        </div>
-        <p>Child</p>
-        <div class="item15">
-          <select>
+          </div>
+          <p>Child</p>
+          <div class="item15">
+            <select>
         <option>1</option>
         <option>2</option>
         <option>3</option>
       </select> x 16.10=0.00
-          </span>
+            </span>
+          </div>
+          <div class="checkout">
+            <a href="../buy_tickets_book_seat.html">  <button type="button" name="ticketing" class="buy_ticket">Continue to Seat Selection</button></a>
+          </div>
         </div>
-        <div class="checkout">
-          <a href="../buy_tickets.html">  <button type="button" name="ticketing" class="buy_ticket">Continue to Seat Selection</button></a>
+        <!-- sidebar for confirmation that the ticket is for the right movie -->
+        <div class="checkout_sidebar">
+          <div class="poster_small">
+            <img src="panther_thumb.jpg" alt="panther" class="confirm_thumb">
+          </div>
+          <!-- sidebar description -->
+          <div class="poster_text_1">
+            <h3>Black Panther 3D</h3>
+            <p class="f8"><em>PG 13 2hr 15min</em></p>
+          </div>
+          <div class="poster_text_2">
+            <p><strong>Regal Fenway Stadium 13 & RPX</strong></p>
+            <p>201 Brookline Ave Boston, MA 02215</p>
+          </div>
+
         </div>
       </div>
-      <!-- sidebar for confirmation that the ticket is for the right movie -->
-      <div class="checkout_sidebar">
-        <div class="poster_small">
-          <img src="panther_thumb.jpg" alt="panther" class="confirm_thumb">
-        </div>
-        <!-- sidebar description -->
-        <div class="poster_text_1">
-          <h3>Black Panther 3D</h3>
-          <p class="f8"><em>PG 13 2hr 15min</em></p>
-        </div>
-        <div class="poster_text_2">
-          <p><strong>Regal Fenway Stadium 13 & RPX</strong></p>
-          <p>201 Brookline Ave Boston, MA 02215</p>
-        </div>
-
+      <div class="footer_section">
+        <footer class "footer">
+          <p>Copyright 2018</p>
+        </footer>
       </div>
     </div>
-    <div class="footer_section">
-      <footer class "footer">
-        <p>Copyright 2018</p>
-      </footer>
-    </div>
-  </div>
-  <style media="screen">
-    h1 {
-      border-bottom: 1px solid #C4C4C4;
-      margin-bottom: 15px;
-      margin-top: 0;
-    }
+    <style media="screen">
+      h1 {
+        border-bottom: 1px solid #C4C4C4;
+        margin-bottom: 15px;
+        margin-top: 0;
+      }
 
-    .main_box {
-      display: grid;
-      grid-template-columns: 3fr 1fr;
-      grid-template-rows: 5fr 1fr;
-      grid-gap: 10px;
-      background-color: #000000;
-      padding-left: 15vw;
-      padding-right: 15vw;
-      padding-top: 5em;
-      height: 100%;
-    }
+      .main_box {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 5fr 1fr;
+        grid-gap: 10px;
+        background-color: #000000;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        padding-top: 5em;
+        height: 100%;
+      }
 
-    .checkout_panel {
-      background-color: #EFECE1;
-      padding: 20px;
-      border: 1px solid #8E8E8E;
+      .checkout_panel {
+        background-color: #EFECE1;
+        padding: 20px;
+        border: 1px solid #8E8E8E;
 
-    }
+      }
 
-    .checkout_sidebar {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      border: 1px solid #8E8E8E;
-      padding: 20px;
+      .checkout_sidebar {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        border: 1px solid #8E8E8E;
+        padding: 20px;
 
-    }
+      }
 
-    button {
-      margin-top: 30px;
-    }
+      button {
+        margin-top: 30px;
+      }
 
-    .poster_text_1 {
-      padding: 7px;
-      color: #C4C4C4;
-    }
+      .poster_text_1 {
+        padding: 7px;
+        color: #C4C4C4;
+      }
 
-    .poster_text_2 {
-      grid-column: span 2;
-      color: #C4C4C4;
-    }
+      .poster_text_2 {
+        grid-column: span 2;
+        color: #C4C4C4;
+      }
 
-    .footer_section {
-      background-color: var(--black);
-      padding: 5px;
-      text-align: center;
-      color: white;
-    }
-  </style>
+      .footer_section {
+        background-color: var(--black);
+        padding: 5px;
+        text-align: center;
+        color: white;
+      }
+    </style>
 </body>
 
 </html>
