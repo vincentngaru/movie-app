@@ -39,6 +39,7 @@ html {
   /* border-bottom: 1px solid gray; */
   display: grid;
   grid-template-columns: 1fr 9fr;
+  grid-template-rows: auto;
   background-color: var(--black);
   padding: 20px 50px;
   grid-template-areas:
@@ -98,9 +99,11 @@ html {
   line-height: 1.6;
 }
 .pick_of_the_day {
-  padding: 50px;
+background: rgba(255 0 255 0.4)
+  padding: 30px;
   display: grid;
   grid-template-columns: 2fr 4fr 1fr;
+  grid-template-columns: repeat(8,1fr);
   grid-gap: 50px;
   grid-template-areas:
     "a b c"
@@ -111,12 +114,12 @@ html {
   grid-area: a;
 }
 .pick_story {
-  grid-area: b;
-  max-width: 400px;
+  grid-area: b; */
+   max-width: 400px;
 }
 
 /* responsive grid */
-@media (max-width: 622px) {
+@media (max-width: 640px) {
   .container {
     padding: 0;
     grid-gap: 0px;
@@ -141,7 +144,6 @@ html {
     "m m"
     "n n";
   }
-  .movie_page{display: block;}
 }
 /* individual movie page */
 .movie_page{
@@ -150,7 +152,8 @@ html {
   padding-right: 14em;
   display: grid;
   grid-template-columns: 3fr 6fr;
-  grid-gap: 50px;
+
+grid-gap: 50px;
 background-color:rgb(255, 255, 255);
 background-size: 400px;
 /* grid-template-areas:
@@ -170,9 +173,10 @@ grid-gap: 35px;
 .similar_movie{
   margin-top: 15px;
 }
-.cover{
+.cover {
   max-width: 450px
 }
+
 /* include header */
 .entire_page{
   height: 100vh;
@@ -188,14 +192,13 @@ grid-gap: 35px;
 } */
 
 .story{
-  background-color: gainsboro;
-  border: 1px solid gray;
-    padding:10px;
+    padding:0px;
     max-width: 560px;
 }
 .details{
   max-width: 560px;
 }
+
 button{
   background-color: #4CAF50;
     border:silver;
@@ -205,9 +208,6 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
-button.watch_w_friend{
-  background-color: #DDDDDD;
 }
 iframe{
   margin-top: 20px;
