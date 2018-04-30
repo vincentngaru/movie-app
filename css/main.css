@@ -209,6 +209,9 @@ button{
     display: inline-block;
     font-size: 16px;
 }
+.watch_w_friend{
+    background-color: gray;
+}
 iframe{
   margin-top: 20px;
 }
