@@ -225,20 +225,28 @@ img{max-width: 100%}
 @media (max-width:1265px) {
 .movie_page{
   /* display: block; */
-  padding: 0px;
+  padding: 5px;
   /* grid-template-areas:
   "x y "
   "x y "
   "z z " */
+
 }
-@media (max-width:530px) {
+  .related {padding:5px;}
+}
+@media (max-width:620px) {
 .movie_page{
-  /* display: block; */
-  padding: 0px;
+  display: block;
+  padding: 5px;
+
   /* grid-template-areas:
   "x x x"
   "y y y"
   "z z z" */
+}
+.related {
+display: block;
+  padding:5px;}
 }
 iframe{width: 100%}
 }
